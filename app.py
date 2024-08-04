@@ -48,6 +48,7 @@ def predict():
     
     predictions = model.predict(sample_data)
     if predictions[0] == 0:
+        st.balloons()
         st.success("Congratulation!!! You are free from risks of having CHD in Ten Years 🎉🎊🥳")
     else:
         st.error("Be Careful!!! You are at risk of having CHD in Ten Years ⚠️😔😔")
