@@ -4,6 +4,8 @@ import joblib
 
 model = joblib.load('rfc.joblib')
 
+st.set_page_config(page_title = "10Y_CHD_Predictor",
+                   page_icon = "🫀")
 st.title("Test whether you are at risk of getting heart disease in the next 10 years 😮")
 st.divider()
 
