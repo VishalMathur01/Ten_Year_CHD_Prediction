@@ -22,7 +22,7 @@ diaBP = st.slider("Diastolic blood pressure", 0.0, 300.0, value=85.0)
 BmI = st.slider("BMI [Weight/ Height]", 0.0, 100.0, value=29.77)
 heartRate = st.slider("Heartrate ", 0.0, 200.0, value=90.0)
 glucose = st.slider("Glucose", 40.0, 500.0, value=80.0)
-sex = st.selectbox("Sex [Yes there are only two Genders]🚹🚺", ["M", "F"], index=1)
+sex = st.selectbox("Sex 🚹🚺", ["M", "F"], index=1)
 is_smoking = st.selectbox("Have you smoked 🚬", ['YES', 'NO'], index=0)
 
 def predict():
